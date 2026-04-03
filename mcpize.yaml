@@ -1,0 +1,18 @@
+name: descript-complete
+display_name: "Descript Complete"
+description: "Complete Descript MCP server. Transcribe audio and video, remove filler words, edit transcripts, and export polished content — all from your AI assistant."
+tagline: "Stop manually transcribing audio."
+version: 1
+runtime: typescript
+env:
+  - name: DESCRIPT_API_KEY
+    description: Descript API key
+    required: true
+tags:
+  - descript
+  - transcription
+  - audio
+  - video
+  - editing
+  - podcasting
+  - content-creation
